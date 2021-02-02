@@ -18,6 +18,7 @@ object-array:
     key2: value2
   - key: value1
     key2: value2
+  - key3 : value4
 
 longtext: |
   dffadfa dfasdfadf 
