@@ -1,0 +1,25 @@
+name: John
+age: 24
+address: "Somowhere: true"
+active: true
+key:
+  key: value1
+  key2: value2
+  key3: 
+    newkey1: newvalue
+
+array-list:
+  - item1
+  - item2
+  - item4
+
+object-array:
+  - key: value1
+    key2: value2
+  - key: value1
+    key2: value2
+
+longtext: |
+  dffadfa dfasdfadf 
+  sdfasdfasd 
+  sfadfaf adfadfa
