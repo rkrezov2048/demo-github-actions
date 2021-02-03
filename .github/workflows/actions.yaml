@@ -10,16 +10,20 @@ jobs:
         run: |
            pwd
            ls
+           echo $GITHUB_SHA
+           echo $GITHUB_REPOSITORY
+           echo $GITHUB_WORKSPACE
+           echo "${{ github.token }}"
       - name: Git Checkout
         uses: actions/checkout@v2.3.4
-      - name: List Files after
-        run: |
-           pwd
-           ls
-      - name: Simple JS Action
-        id: greet
-        uses: actions/hello-world-javascript-action@v1.1
-        with:
-          who-to-greet: Pero
-      - name: Log Greeting Time
-        run: echo "{{ steps.greet.outputs.time }}"
+      # - name: List Files after
+      #   run: |
+      #      pwd
+      #      ls
+      # - name: Simple JS Action
+      #   id: greet
+      #   uses: actions/hello-world-javascript-action@v1.1
+      #   with:
+      #     who-to-greet: Pero
+      # - name: Log Greeting Time
+      #   run: echo "{{ steps.greet.outputs.time }}"
