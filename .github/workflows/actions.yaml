@@ -10,8 +10,8 @@ jobs:
         run: |
            pwd
            ls
-      - name: Git Checkout
-        uses: actions/checkout@v2.3.4
+      # - name: Git Checkout
+      #   uses: actions/checkout@v2.3.4
       - name: List Files after
         run: |
            pwd
